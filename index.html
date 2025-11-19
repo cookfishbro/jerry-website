@@ -36,6 +36,7 @@
             to {
                 opacity: 1;
                 transform: translateY(0);
+                transform: translateX(0);
             }
         }
 
@@ -60,6 +61,7 @@
                         <a href="#education" class="hover:text-blue-600 transition-colors px-3 py-2 rounded-md text-sm font-medium">Education</a>
                         <a href="#experience" class="hover:text-blue-600 transition-colors px-3 py-2 rounded-md text-sm font-medium">Experience</a>
                         <a href="#projects" class="hover:text-blue-600 transition-colors px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+                        <a href="#research" class="hover:text-blue-600 transition-colors px-3 py-2 rounded-md text-sm font-medium">Research</a>
                         <a href="#skills" class="hover:text-blue-600 transition-colors px-3 py-2 rounded-md text-sm font-medium">Skills</a>
                     </div>
                 </div>
@@ -77,6 +79,7 @@
                 <a href="#education" class="text-slate-600 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium">Education</a>
                 <a href="#experience" class="text-slate-600 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium">Experience</a>
                 <a href="#projects" class="text-slate-600 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium">Projects</a>
+                <a href="#research" class="text-slate-600 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium">Research</a>
                 <a href="#skills" class="text-slate-600 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium">Skills</a>
             </div>
         </div>
@@ -90,7 +93,7 @@
         
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
             <div class="animate-fade-in">
-                <span class="inline-block py-1 px-3 rounded-full bg-blue-100 text-blue-800 text-sm font-semibold mb-6 tracking-wide">Available for Opportunities</span>
+                <span class="inline-block py-1 px-3 rounded-full bg-blue-100 text-blue-800 text-sm font-semibold mb-6 tracking-wide"></span>
                 <h1 class="text-5xl md:text-7xl font-bold tracking-tight text-slate-900 mb-6">
                     Hello, I'm <span class="gradient-text">Jerry Yeh</span>
                 </h1>
@@ -148,7 +151,7 @@
                         <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                             <div>
                                 <h3 class="text-xl font-bold text-slate-900">University of California, Berkeley</h3>
-                                <p class="text-blue-600 font-medium">Economics Exchange Program</p>
+                                <p class="text-blue-600 font-medium">Exchange (Economics, Data Science)</p>
                             </div>
                             <div class="text-right mt-2 md:mt-0">
                                 <p class="text-slate-500 text-sm font-mono">Aug. 2024 - May. 2025</p>
@@ -191,6 +194,37 @@
                             <i data-lucide="check-circle-2" class="w-5 h-5 mr-3 text-green-500 flex-shrink-0 mt-1"></i>
                             <span>Built an internal evaluation framework to systematically assess and compare large language model outputs.</span>
                         </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check-circle-2" class="w-5 h-5 mr-3 text-green-500 flex-shrink-0 mt-1"></i>
+                            <span>Built an end-to-end Python LLM pipeline for medical claims summarization, consolidating 6,000+ raw rows into 3,700 structured per-patient summaries.</span>
+                        </li>
+                    </ul>
+                    <div class="mt-6 flex flex-wrap gap-2">
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">Generative AI</span>
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">Prompt Engineering</span>
+                        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">LLM Evaluation</span>
+                    </div>
+                </div>
+
+                <!-- WorldQuant -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow border border-slate-100">
+                    <div class="flex flex-col md:flex-row justify-between items-start mb-6">
+                        <div>
+                            <h3 class="text-2xl font-bold text-slate-900">Research Consultant</h3>
+                            <p class="text-lg text-blue-600 font-medium">WorldQuant, LLC</p>
+                        </div>
+                        <span class="mt-2 md:mt-0 px-4 py-1 rounded-full bg-blue-50 text-blue-700 text-sm font-mono">Aug. 2025 - Present</span>
+                    </div>
+                    <ul class="space-y-3 text-slate-600">
+                        <li class="flex items-start">
+                            <i data-lucide="check-circle-2" class="w-5 h-5 mr-3 text-green-500 flex-shrink-0 mt-1"></i>
+                            <span>Develop and evaluate quantitative alphas through data-driven research, statistical testing, and iterative signal refinement.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check-circle-2" class="w-5 h-5 mr-3 text-green-500 flex-shrink-0 mt-1"></i>
+                            <span>Earned a Gold Certificate on WorldQuant’s BRAIN platform by developing high-performing alphas and consistently ranking among top contributors.</span>
+                        </li>
+                    
                     </ul>
                     <div class="mt-6 flex flex-wrap gap-2">
                         <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">Generative AI</span>
@@ -316,11 +350,54 @@
                         <div class="flex flex-wrap gap-2 mt-auto">
                             <span class="text-xs font-medium px-2.5 py-0.5 rounded bg-yellow-100 text-yellow-800">Python</span>
                             <span class="text-xs font-medium px-2.5 py-0.5 rounded bg-purple-100 text-purple-800">OpenAI</span>
-                            <span class="text-xs font-medium px-2.5 py-0.5 rounded bg-teal-100 text-teal-800">RAG</span>
+                            <span class="px-3 py-1 rounded-full bg-teal-100 text-teal-800 text-xs font-medium">RAG</span>
                         </div>
                     </div>
                 </div>
 
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-slate-900 mb-12 flex items-center">
+                <i data-lucide="microscope" class="w-8 h-8 mr-3 text-blue-600"></i> Research
+            </h2>
+
+            <div class="bg-white rounded-2xl p-8 shadow-xl border border-slate-200 hover:shadow-2xl transition-shadow duration-300">
+                <div class="flex flex-col md:flex-row justify-between items-start mb-4">
+                    <h3 class="text-2xl font-bold text-slate-900 leading-tight">
+                        <a href="https://arxiv.org/abs/2510.18751" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 transition-colors flex items-center">
+                            Seg the HAB: Language-Guided Geospatial Algae Bloom Reasoning and Segmentation
+                            <i data-lucide="external-link" class="w-5 h-5 ml-2 text-blue-500 flex-shrink-0"></i>
+                        </a>
+                    </h3>
+                    <span class="mt-3 md:mt-0 px-4 py-1 rounded-full bg-blue-100 text-blue-700 text-sm font-semibold whitespace-nowrap">
+                        Accepted to NeurIPS 2025 ClimateAI Workshop
+                    </span>
+                </div>
+
+                <p class="text-slate-600 mt-2 mb-4">
+                    This paper addresses the escalating global threat of Harmful Algal Blooms (HABs), which are intensified by climate change and pose severe ecological and public health risks.
+                </p>
+
+                <h4 class="text-lg font-semibold text-slate-800 mb-2 mt-4">Contribution: ALGOS Framework</h4>
+                <ul class="space-y-3 text-slate-600 list-disc list-inside">
+                    <li>Introduced Algae Observation and Segmentation (ALGOS), a novel vision-language framework for comprehensive HAB monitoring using remote sensing data (Sentinel-2 imagery).</li>
+                    <li>ALGOS unifies pixel-level segmentation and contextual severity estimation, moving beyond fragmented traditional monitoring methods.</li>
+                    <li>Implemented a semi-supervised data curation loop using GeoSAM-assisted human evaluation to create high-quality segmentation masks for diffuse bloom boundaries.</li>
+                    <li>Fine-tuned a LLaVA Vision-Language Model for severity prediction using NASA's Cyanobacteria Aggregated Manual Labels (CAML) dataset, achieving robust performance and paving the way for automated cyanobacterial monitoring.</li>
+                </ul>
+                
+                <div class="mt-6 flex flex-wrap gap-2">
+                    <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">Generative AI</span>
+                    <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">Geospatial AI</span>
+                    <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">LLMs & Vision</span>
+                    <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">Climate Tech</span>
+                    <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-medium">Remote Sensing</span>
+                </div>
             </div>
         </div>
     </section>
@@ -372,10 +449,10 @@
                                 <div class="w-2 h-2 rounded-full bg-purple-400"></div>
                             </div>
                             <div>
-                                <h4 class="text-lg font-semibold text-white">NCCU Business Solutions Group</h4>
-                                <p class="text-slate-400 text-sm mb-2">Founding Member | Feb 2024 - Present</p>
+                                <h4 class="text-lg font-semibold text-white">OpenProject</h4>
+                                <p class="text-slate-400 text-sm mb-2">Data Scientist | Sep 2024 - Feb 2025</p>
                                 <p class="text-slate-300 text-sm leading-relaxed">
-                                    Led team to victory in club case competition. Developed case study analysis skills to evaluate corporate decision-making and enhanced leadership abilities through group discussions.
+                                    Developed an RAG system that makes movie suggestion based on user query.
                                 </p>
                             </div>
                         </div>
@@ -389,6 +466,19 @@
                                 <p class="text-slate-400 text-sm mb-2">Member | Feb 2024 - Present</p>
                                 <p class="text-slate-300 text-sm leading-relaxed">
                                     Gained practical knowledge of blockchain technology through active participation in lectures and technical discussions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="mt-1">
+                                <div class="w-2 h-2 rounded-full bg-purple-400"></div>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-semibold text-white">NCCU Business Solutions Group</h4>
+                                <p class="text-slate-400 text-sm mb-2">Founding Member | Feb 2024 - Present</p>
+                                <p class="text-slate-300 text-sm leading-relaxed">
+                                    Led team to victory in club case competition. Developed case study analysis skills to evaluate corporate decision-making and enhanced leadership abilities through group discussions.
                                 </p>
                             </div>
                         </div>
